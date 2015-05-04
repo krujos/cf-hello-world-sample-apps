@@ -2,5 +2,5 @@
 
 This repo contains collection of apps that can be pushed to cf that don't require local compilation. I use them for workshops to illustrate how to pushing applications to the platform uses the same commands regardless of language. 
 
-To simply `cd` into the directory and run `cf push --random-route`
+To simply `cd` into the directory and run `cf push <a name for your app> --random-route`
 
