@@ -6,6 +6,7 @@ To simply `cd` into the directory and run `cf push <a name for your app> --rando
 
 After the push completes open the URL the CLI reports back to you in your browser or `curl` it. 
 
+Your output should look something like this:
 ```
 1 of 1 instances running
 
