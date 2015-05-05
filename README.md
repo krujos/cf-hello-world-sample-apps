@@ -1,8 +1,8 @@
 #Cloud Foundry Demo Applications
 
-This repo contains collection of apps that can be pushed to cf that don't require local compilation. I use them for workshops to illustrate how to pushing applications to the platform uses the same commands regardless of language. 
+This repo contains collection of apps that can be pushed to cf that don't require local compilation. I use them for workshops to illustrate how to pushing applications to the platform uses the same commands regardless of language. If you're in one of my classes please remember the `-m` flag, chances are good we're on limited resources. 
 
-To simply `cd` into the directory and run `cf push <a name for your app> --random-route`
+To simply `cd` into the directory and run `cf push <a name for your app> --random-route -m 512m`
 
 After the push completes open the URL the CLI reports back to you in your browser or `curl` it. 
 
